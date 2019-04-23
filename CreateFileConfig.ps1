@@ -10,4 +10,8 @@ Configuration CreateFileConfig
             Contents        = "Can this really be true!"
         }
 }
+
+Write-Host "This is to test errors"
+
 CreateFileConfig
+
