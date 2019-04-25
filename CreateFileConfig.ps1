@@ -11,7 +11,8 @@ Configuration CreateFileConfig
         }
 }
 
-#Write-Host "This is to test errors"
+Write-Host "This is to test errors"
+$backendServerPass = ConvertTo-SecureString "Testing" -AsPlainText -Force
 
 CreateFileConfig
 
