@@ -1,0 +1,12 @@
+{
+    "projectName": "DSCTest",
+    "version": "1.0",
+    "powershellModules": [
+        "PSScriptAnalyzer",
+        "Pester"
+    ],
+    "dscResources": [
+        "ActiveDirectory",
+        "PSDesiredStateConfiguration"
+    ]
+}
